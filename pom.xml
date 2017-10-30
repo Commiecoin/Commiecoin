@@ -17,4 +17,26 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>io.netty</groupId>
+  		<artifactId>netty-all</artifactId>
+  		<version>4.0.52.Final</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.mapdb</groupId>
+  		<artifactId>mapdb</artifactId>
+  		<version>3.0.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-io</groupId>
+  		<artifactId>commons-io</artifactId>
+  		<version>2.6</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-net</groupId>
+  		<artifactId>commons-net</artifactId>
+  		<version>3.6</version>
+  	</dependency>
+  </dependencies>
 </project>
